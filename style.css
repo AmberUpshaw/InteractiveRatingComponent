@@ -4,15 +4,16 @@ body{
 }
 
 #star{
-    background-color: hsla(216, 12%, 54%, 1);
+    background-color: hsl(210, 19%, 19%);
     border-radius: 50%;
     padding: 10px;
     margin-bottom: 18px;
 }
 
 .card{
-    background: linear-gradient(180deg, hsl(216, 12%, 54%),  hsl(213, 19%, 18%));
+    background: linear-gradient(-145deg, hsl(215, 20%, 20%), 13%, hsl(218, 26%, 10%));
     width: 20rem; 
+    border: none;
     border-radius: 18px;
     padding: 10px;
     position: absolute;
@@ -22,7 +23,7 @@ body{
 
 .card h5{
     font-weight: bold;
-    font-size: 2em;
+    font-size: 25px;
     color: white;
 }
 
@@ -32,7 +33,7 @@ body{
 }
 
 .rating{
-    background-color: hsl(217, 12%, 63%);
+    background-color: hsl(210, 19%, 19%);
     border-radius: 50%;
     position: relative;
     right: 9px;
@@ -48,14 +49,14 @@ body{
     position: relative;
     left: 1%;
     margin-top: 10px;
-    padding: 3px 95px;
+    padding: 3px 100px;
     border-radius: 16px;
 }
 
 #submit a{
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
     letter-spacing: 1px;
 }
 
